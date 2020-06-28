@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRENCY_CONVERTER</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script>
+
+function currencyConverter(valNum){
+        if(converter.taka.value <= 0)
+        window.alert("Enter value Greaterthan 0");
+        else{
+            document.getElementById("dollar").value = (valNum/84.86).toFixed(2);
+            document.getElementById("yuan").value = (valNum/11.99).toFixed(2);
+            document.getElementById("rupees").value = (valNum/1.12).toFixed(2);
+            document.getElementById("won").value = (valNum/0.070).toFixed(2);
+            document.getElementById("riyal").value = (valNum/22.60).toFixed(2);
+            document.getElementById("dinar").value = (valNum/275.60).toFixed(2);
+            
+        }
+    }
+    </script>
+    
+<body>
+    <h1>CURRENCY_CONVERTER</h1>
+    <marquee>WELCOME TO THE ONLINE CURRENCY_CONVERTER</marquee>
+    <br><br>
+    <form name="converter">
+    <fieldset>
+        <img class="BAN" src="image/bangladesh.png">
+        <label>BAN Currency(Taka) : </label>
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input type="number" name="taka" required>
+        <input type="button" value="CONVERT" onclick="currencyConverter(converter.taka.value)"> <br><br>
+
+        <img class="USA" src="image/usa.png">
+        <label>USA Currency(Dollar): </label>
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input id="dollar"><br><br>
+
+        <img class="CHINA" src="image/china.png">
+        <label>CHINA Currency(Yuan): </label>
+        &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input id="yuan"><br><br>
+
+        <img class="INDIA" src="image/india.png">
+        <label>INDIA Currency(Rupee): </label>
+        &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input id="rupees"><br><br>
+
+
+        <img class="KOREA" src="image/korea.png">
+        <label>KOREA Currency(Won) : </label>
+        &nbsp &nbsp &nbsp &nbsp &nbsp 
+        <input id="won"><br><br>
+
+        <img class="SAUDIA" src="image/saudia.png">
+        <label>SAUDIA Currency(Riyal): </label>
+        &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input id="riyal"><br><br>
+
+        <img class="KUWAIT" src="image/kewait.png">
+        <label>KUWAIT Currency(Dinar): </label>
+        &nbsp &nbsp &nbsp &nbsp &nbsp
+        <input id="dinar"><br><br>
+
+        <input type="reset" value="RESET_FORM">
+        <p align="center">You can press Reset Button for reseting the form</p>
+    </fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(113, 177, 230);
+
+}
+h1{
+    background-color: rgb(114, 69, 197);
+    text-align: center;
+    font-size: 35px;
+    padding: 50px lem;
+    font-weight:bold ;
+    margin-left: 30%;
+    margin-right: 30%;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+}
+marquee{
+    background-color: rgb(29, 122, 110);
+    font-size: 24px;
+    margin-left: 350px;
+    margin-right: 350px;
+    cursor: pointer;
+}
+fieldset{
+    width: 45%;
+    margin: auto;
+    border: 1px solid #000;
+    text-align: left;
+    font-size: 20px;
+    font-family: lato,sans-serif;
+}
+.BAN{
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+}
+.USA{
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+}
+.INDIA{
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+}
+.CHINA{
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+}
+.KOREA{
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+}
+.SAUDIA{
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+}
+.KUWAIT{
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+}
+input[type=button]:hover
+{
+    background-color: indigo;
+    color: green;
+}
+input[type=reset]:hover
+{
+    background-color: indigo;
+    color: green;
+}
